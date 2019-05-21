@@ -14,7 +14,7 @@ public class Car {
     private String type;
 
     @NotNull
-    @Size(min=25, max=50)
+    @Size(min=10, max=50)
     private String desc;
 
     public String getName() {
